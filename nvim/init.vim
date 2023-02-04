@@ -78,7 +78,6 @@ if dein#load_state('~/.cache/dein')
   call dein#add('carlitux/deoplete-ternjs')                    " Autocomplete for JavaScript
   call dein#add('zchee/deoplete-jedi')                         " Autocomplete for Python
   call dein#add('zchee/deoplete-go', {'build': 'make'})        " Autocomplete for Go
-  call dein#add('fszymanski/deoplete-emoji')                   " Autocomplete for emoji codes
 
   " Plugins no longer in use
   " call dein#add('othree/yajs.vim')                           " Syntax highlighting for JavaScript

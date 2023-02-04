@@ -39,9 +39,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('python-mode/python-mode')                     " Language support for Python
   call dein#add('fatih/vim-go', {'do': ':GoUpdateBinaries'})   " Language support for Go
   call dein#add('ternjs/tern_for_vim', {'do': 'npm install'})  " Language support for JavaScript
-  call dein#add('zah/nim.vim')                                 " Language support for Nim
-  call dein#add('JuliaEditorSupport/julia-vim')                " Language support for Julia
-  call dein#add('udalov/kotlin-vim')                           " Language support for Kotlin
+  call dein#add('rust-lang/rust.vim')                          " Language support for Rust
 
   " Syntax highlighting
   call dein#add('slim-template/vim-slim')                      " Slim syntax highlighting

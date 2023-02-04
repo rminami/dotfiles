@@ -50,9 +50,6 @@ if dein#load_state('~/.cache/dein')
   call dein#add('othree/html5.vim')                            " Syntax highlighting for HTML5
   call dein#add('HerringtonDarkholme/yats.vim')                " Syntax highlighting for TypeScript
   call dein#add('nikvdp/ejs-syntax')                           " Syntax highlighting for EJS
-  call dein#add('ElmCast/elm-vim')                             " Syntax highlighting for Elm
-  call dein#add('posva/vim-vue')                               " Syntax highlighting for Vue
-  call dein#add('vim-scripts/promela.vim')                     " Syntax highlighting for Promela
 
   " Color schemes
   call dein#add('rakr/vim-one')                                " One color scheme, ported from Atom
@@ -248,3 +245,4 @@ let g:ale_linter_aliases = {'jsx': 'css'}
 if filereadable(expand("~/.nvimrc.local"))
   source ~/.nvimrc.local
 endif
+

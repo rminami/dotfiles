@@ -58,7 +58,6 @@ if dein#load_state('~/.cache/dein')
   call dein#add('rakr/vim-one')                                " One color scheme, ported from Atom
   call dein#add('mhartington/oceanic-next')                    " Oceanic Next color scheme
   call dein#add('ayu-theme/ayu-vim')                           " Ayu color scheme for Vim
-  call dein#add('arcticicestudio/nord-vim')                    " An arctic, north-bluish theme for Vim
   call dein#add('drewtempelmeyer/palenight.vim')               " Palenight color scheme for Vim
   call dein#add('chriskempson/base16-vim')                     " Base 16 theme for Vim
   call dein#add('dracula/vim')                                 " Dracula theme for Vim

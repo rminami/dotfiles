@@ -24,27 +24,11 @@ alias yd='yarn run dev'
 alias yui='yarn upgrade-interactive'
 alias ydp='yarn deploy'
 
-# Aliases for npm
-alias ns='npm start'
-alias ni='npm install'
-alias nu='npm upgrade'
-alias nb='npm build'
-alias nd='npm run dev'
-
 # Upgrade global package
 alias ngu='npm-check -gy'
 
 # Upgrade global packages interactively
 alias ngui='npm-check -gu'
-
-# Aliases for Python
-alias pi='pip install'
-
-# Aliases for conda
-alias cua='conda update --all -y'
-alias cca='conda clean --all -y'
-alias csa='conda activate'
-alias csd='conda deactivate'
 
 # Alias for Jupyter notebook
 alias jn='python -m jupyter notebook'
@@ -64,7 +48,4 @@ alias f='open -a Finder '
 alias fh='open -a Finder .'
 
 alias apps='open -a Finder /Applications'
-
-# Newer version of Python
-alias python39='/usr/local/opt/python@3.9/libexec/bin/python'
 

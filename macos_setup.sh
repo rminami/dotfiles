@@ -13,6 +13,9 @@ git config --global gpg.format ssh
 git config --global user.signingkey ~/.ssh/id_ed25519.pub
 git config --global commit.gpgsign true
 
+# Set up znap
+git clone --depth 1 git@github.com:marlonrichert/zsh-snap.git ~/.local/share/zsh-snap/zsh-snap
+
 # Install essential command line tools
 brew install neovim
 brew install wget

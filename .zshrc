@@ -2,7 +2,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source ~/.local/share/zsh-snap/znap.zsh
+source ~/.local/share/zsh-snap/zsh-snap/znap.zsh
 
 # zsh configuration
 setopt auto_cd

@@ -8,6 +8,11 @@
 git config --global user.name "Ryosuke Minami"
 git config --global user.email "contact@ryosuke.dev"
 
+# Set up commit signing with ssh key
+git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
+git config --global commit.gpgsign true
+
 # Install essential command line tools
 brew install neovim
 brew install wget

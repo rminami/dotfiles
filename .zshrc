@@ -1,4 +1,8 @@
-source ~/.local/share/zsh-snap/zsh-snap/znap.zsh
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+source ~/.local/share/zsh-snap/znap.zsh
 
 # zsh configuration
 setopt auto_cd
@@ -70,4 +74,3 @@ fi
 # uninstall by removing these lines
 [[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-

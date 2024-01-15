@@ -1,0 +1,10 @@
+[tools]
+node = "21"
+java = "latest"
+"npm:serve" = "latest"
+"npm:vite" = "latest"
+"npm:npm-check" = "latest"
+"npm:corepack" = "latest"
+
+[settings]
+experimental = true

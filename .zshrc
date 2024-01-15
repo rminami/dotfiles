@@ -59,6 +59,8 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 
+export BAT_THEME="TwoDark"
+
 if [[ -f $HOME/.aliases ]]; then
     source $HOME/.aliases
 fi

@@ -37,17 +37,17 @@ brew install --cask r
 brew install --cask rstudio
 
 # Install languages with mise
+mise plugins install ruby
+
 mise install node@latest
 mise install node@lts
 mise install java@latest
 
 mise use -g node@latest
 mise use -g java@latest
-
-# Install npm packages
-npm install -g serve
-npm install -g npm-check
-npm install -g @vue/cli
+mise use -g npm:npm-check@latest
+mise use -g npm:serve@latest
+mise use -g npm:vite@latest
 
 # Install fonts
 echo "Installing fonts..."
@@ -60,7 +60,6 @@ brew cask install font-fira-code
 
 # Install languages
 brew install python3
-brew cask install java
 
 # Install language tools
 brew install gradle

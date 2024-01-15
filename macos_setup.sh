@@ -36,6 +36,14 @@ brew install --cask ngrok
 brew install --cask r
 brew install --cask rstudio
 
+# Install languages with mise
+mise install node@latest
+mise install node@lts
+mise install java@latest
+
+mise use -g node@latest
+mise use -g java@latest
+
 # Install npm packages
 npm install -g serve
 npm install -g npm-check

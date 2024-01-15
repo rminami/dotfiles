@@ -22,6 +22,7 @@ brew install the_silver_searcher
 brew install mas
 brew install tmux
 brew install bat
+brew install nushell
 
 # Install npm packages
 npm install -g serve

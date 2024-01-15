@@ -6,7 +6,7 @@
 
 # Configure git
 git config --global user.name "Ryosuke Minami"
-git config --global user.email "ryosukem13@gmail.com"
+git config --global user.email "contact@ryosuke.dev"
 
 # Install essential command line tools
 brew install neovim

@@ -27,6 +27,8 @@ brew install tldr
 brew install tmux
 brew install bat
 brew install nushell
+brew install go
+brew install zig
 
 # Install casks
 brew install --cask gdisk

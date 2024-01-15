@@ -22,7 +22,8 @@ brew install wget
 brew install tree
 brew install ack
 brew install the_silver_searcher
-brew install mas
+brew install less
+brew install tldr
 brew install tmux
 brew install bat
 brew install nushell

@@ -28,6 +28,14 @@ brew install tmux
 brew install bat
 brew install nushell
 
+# Install casks
+brew install --cask gdisk
+brew install --cask google-cloud-sdk
+brew install --cask julia
+brew install --cask ngrok
+brew install --cask r
+brew install --cask rstudio
+
 # Install npm packages
 npm install -g serve
 npm install -g npm-check

@@ -54,7 +54,6 @@ brew install --cask rstudio
 
 # Install languages with mise
 mise plugins install ruby
-
 mise install node@latest
 mise install node@lts
 mise install java@latest
@@ -68,11 +67,11 @@ mise use -g npm:vite@latest
 # Install fonts
 echo "Installing fonts..."
 brew tap homebrew/cask-fonts
-brew cask install font-roboto
-brew cask install font-roboto-mono
-brew cask install font-meslo-for-powerline
-brew cask install font-meslo-nerd-font-mono
-brew cask install font-fira-code
+brew install --cask font-roboto
+brew install --cask font-roboto-mono
+brew install --cask font-meslo-for-powerline
+brew install --cask font-meslo-nerd-font-mono
+brew install --cask font-fira-code
 
 # Install language tools
 brew install gradle

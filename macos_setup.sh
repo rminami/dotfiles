@@ -23,6 +23,8 @@ brew install ca-certificates
 brew install tree
 brew install tree-sitter
 brew install pkg-config
+brew install git-lfs
+brew install git-filter-repo
 brew install ack
 brew install the_silver_searcher
 brew install less

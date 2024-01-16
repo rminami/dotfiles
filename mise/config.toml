@@ -5,7 +5,7 @@ node = "latest"
 "npm:npm-check" = "latest"
 "npm:serve" = "latest"
 "npm:vite" = "latest"
-ruby = "latest"
+ruby = "3"
 
 [settings]
 experimental = true

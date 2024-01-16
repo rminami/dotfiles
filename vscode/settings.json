@@ -1,76 +1,58 @@
 {
-    "editor.fontSize": 14,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.formatOnSave": false,
-    "explorer.openEditors.visible": 0,
-    "editor.rulers": [
-        80
-    ],
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-     },
-    "window.zoomLevel": 0,
-    "workbench.startupEditor": "newUntitledFile",
-    "git.enableSmartCommit": true,
-    "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "GitHub Dark",
-    "workbench.sideBar.location": "left",
-    "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.fontFamily": "Fira Code",
-    "terminal.integrated.fontSize": 14,
-    "workbench.colorCustomizations": {},
-    "explorer.confirmDragAndDrop": false,
-    "python.formatting.provider": "yapf",
-    "python.linting.pylintPath": "/usr/local/anaconda3/bin/pylint",
-    "python.linting.pylintEnabled": true,
-    "python.linting.pylintArgs": [
-        "--enable=W0614",
-        "--disable=C0111"
-    ],
-    "julia.enableTelemetry": false,
-    "julia.executablePath": "/usr/local/bin/julia",
-    "editor.minimap.enabled": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "java.trace.server":"verbose",
-    "java.errors.incompleteClasspath.severity": "ignore",
-    "python.linting.enabled": false,
-    "python.condaPath": "/usr/local/anaconda3/bin/conda",
-    "editor.suggestSelection": "first",
-    "editor.tabSize": 2,
-    "editor.trimAutoWhitespace": false,
-    "editor.renderWhitespace": "boundary",
-    "java.configuration.checkProjectSettingsExclusions": false,
-    "customizeUI.activityBar": "bottom",
-    "customizeUI.titleBar": "inline",
-    "window.titleBarStyle": "native",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[go]": {
-        "editor.formatOnSave": false
-    },
-    "[python]": {
-        "editor.tabSize": 4
-    },
-    "editor.wordWrap": "on",
-    "terminal.integrated.inheritEnv": false,
-    "workbench.tree.renderIndentGuides": "none",
-    "workbench.tree.indent": 16,
-    "workbench.iconTheme": "material-icon-theme",
-    "vetur.format.defaultFormatter.html": "none",
-    "python.languageServer": "Microsoft",
-    "python.defaultInterpreterPath": "/usr/local/anaconda3/bin/python",
-    "java.home": "/Library/Java/JavaVirtualMachines/openjdk-14.0.2.jdk/Contents/Home",
-    "rust-client.channel": "stable",
-    "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
-    "rust-analyzer.serverPath": "/usr/local/bin/rust-analyzer",
-    "rust-analyzer.cargo.allFeatures": true,
-    "terminal.integrated.rendererType": "dom",
-    "vscode_vibrancy.opacity": 0.6,
-    "vscode_vibrancy.type": "ultra-dark"
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "python.analysis.autoImportCompletions": true,
+  "mypy.dmypyExecutable": "/opt/homebrew/bin/mypy",
+  "mypy.runUsingActiveInterpreter": true,
+  "go.gopath": "/opt/homebrew/bin/go",
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'JetBrains Mono', Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 4,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "update.mode": "default",
+  "window.titleBarStyle": "native",
+  "vim.disableExtension": true,
+  "vim.enableNeovim": true,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "[typescriptreact][typescript][javascript][json][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "yaml.format.singleQuote": false,
+  "yaml.schemaStore.enable": false,
+  "redhat.telemetry.enabled": false,
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "errorLens.enabledDiagnosticLevels": ["info", "warning", "error"],
+  "rust-analyzer.cargo.buildScripts.enable": false,
+  "rust-analyzer.check.allTargets": true,
+  "rust-analyzer.server.path": "/Users/ryosuke/.rustup/toolchains/stable-aarch64-apple-darwin/bin/rust-analyzer",
+  "mypy.enabled": false,
+  "editor.rulers": [80],
+  "editor.fontSize": 14,
+  "svg.preview.mode": "svg",
+  "deno.codeLens.implementations": true,
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 12,
+      "y": 9
+    }
+  },
+  "apc.activityBar": {
+    "position": "bottom",
+    "size": 28
+  },
+  "sqlfluff.format.enabled": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

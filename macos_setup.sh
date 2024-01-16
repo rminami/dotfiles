@@ -19,7 +19,10 @@ git clone --depth 1 git@github.com:marlonrichert/zsh-snap.git ~/.local/share/zsh
 # Install essential command line tools
 brew install neovim
 brew install wget
+brew install ca-certificates
 brew install tree
+brew install tree-sitter
+brew install pkg-config
 brew install ack
 brew install the_silver_searcher
 brew install less
@@ -29,6 +32,12 @@ brew install bat
 brew install nushell
 brew install go
 brew install zig
+brew install erlang
+brew install ocaml
+brew install nim
+brew install elixir
+brew install lua
+brew install luarocks
 
 # Install casks
 brew install --cask gdisk

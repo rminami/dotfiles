@@ -28,10 +28,13 @@ brew install git-filter-repo
 brew install ack
 brew install the_silver_searcher
 brew install less
+brew install imagemagick
+brew install lcov
 brew install tldr
 brew install tmux
 brew install bat
 brew install nushell
+brew install poetry
 brew install go
 brew install zig
 brew install erlang
@@ -70,9 +73,6 @@ brew cask install font-roboto-mono
 brew cask install font-meslo-for-powerline
 brew cask install font-meslo-nerd-font-mono
 brew cask install font-fira-code
-
-# Install languages
-brew install python3
 
 # Install language tools
 brew install gradle

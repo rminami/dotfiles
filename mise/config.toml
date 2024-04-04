@@ -1,11 +1,12 @@
 [tools]
 java = "latest"
-node = "latest"
+node = "lts"
 "npm:corepack" = "latest"
 "npm:npm-check" = "latest"
 "npm:serve" = "latest"
 "npm:vite" = "latest"
 ruby = "3"
+python = "latest"
 
 [settings]
 experimental = true

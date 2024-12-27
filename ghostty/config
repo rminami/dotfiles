@@ -1,0 +1,12 @@
+font-family = MesloLGMDZ Nerd Font Mono
+font-size = 15
+
+cursor-style = block
+cursor-style-blink = true
+shell-integration-features = no-cursor
+
+window-width = 120
+window-height = 36
+
+keybind = super+backspace=text:\x15
+

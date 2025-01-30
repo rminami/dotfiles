@@ -48,4 +48,5 @@ alias f='open -a Finder '
 alias fh='open -a Finder .'
 
 alias apps='open -a Finder /Applications'
+alias chrome-insecure='open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security'
 

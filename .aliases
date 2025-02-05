@@ -38,6 +38,12 @@ alias jl='python -m jupyter lab'
 alias x='exit'
 alias cl='clear'
 
+# Cargo aliases
+alias cgb='cargo build'
+alias cgc='cargo check'
+alias cgr='cargo run'
+alias cgcl='cargo clippy'
+
 # Recursive option for dos2unix
 alias dos2unixr='find . -type f -print0 | xargs -0 dos2unix'
 alias unix2dosr='find . -type f -print0 | xargs -0 unix2dos'

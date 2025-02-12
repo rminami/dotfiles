@@ -2,10 +2,6 @@
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 source ~/.local/share/zsh-snap/zsh-snap/znap.zsh
 
 # zsh configuration
@@ -21,18 +17,8 @@ export TERM=xterm-256color
 export CLICOLOR=1
 export EDITOR=nvim
 
-# Geometry Theme Settings
-# GEOMETRY_PROMPT_PLUGINS=(virtualenv git jobs)    # Plugins
-# GEOMETRY_STATUS_COLOR=blue                       # Changes prompt symbol color
-# PROMPT_GEOMETRY_EXEC_TIME=true                   # Displays process time for long commands
-# PROMPT_GEOMETRY_GIT_SHOW_STASHES=false           # Disables stash symbol for git plugin
-# PROMPT_GEOMETRY_GIT_TIME=false                   # Disables time since last commit
-# PROMPT_GEOMETRY_GIT_TIME_SINCE_COMMIT=false
-
-# export SPACESHIP_GCLOUD_SHOW=false
-
 # znap prompt geometry-zsh/geometry
-znap prompt romkatv/powerlevel10k
+# znap prompt romkatv/powerlevel10k
 # znap prompt spaceship-prompt/spaceship-prompt
 
 znap source zsh-users/zsh-completions
@@ -73,7 +59,6 @@ if [[ -f $HOME/.zshrc.local ]]; then
     source $HOME/.zshrc.local
 fi
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 . "$HOME/.cargo/env"
+
+eval "$(oh-my-posh init zsh --config ~dot/oh-my-posh.omp.json)"

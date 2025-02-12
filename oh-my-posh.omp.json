@@ -2,17 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
-      "segments": [
-        {
-          "foreground": "#ff8800",
-          "style": "diamond",
-          "template": "{{ round .PhysicalPercentUsed .Precision }}% ",
-          "type": "sysinfo"
-        }
-      ],
-      "type": "rprompt"
-    },
-    {
       "alignment": "left",
       "segments": [
         {
@@ -40,12 +29,12 @@
           ],
           "properties": {
             "branch_max_length": 25,
+            "branch_icon": "",
             "fetch_stash_count": true,
-            "fetch_status": true,
-            "fetch_upstream_icon": true
+            "fetch_status": true
           },
           "style": "plain",
-          "template": "<#ff8800>on</> {{.UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
+          "template": "<#ff8800>on</> {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
           "type": "git"
         },
         {

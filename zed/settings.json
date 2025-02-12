@@ -7,6 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "icon_theme": "Catppuccin Frappé",
   "assistant": {
     "default_model": {
       "provider": "anthropic",
@@ -22,7 +23,7 @@
     }
   },
   "git_status": false,
-  "theme": "Github Dark",
+  "theme": "Ayu Dark",
   "vim_mode": true,
   "ui_font_size": 16,
   "buffer_font_size": 14,

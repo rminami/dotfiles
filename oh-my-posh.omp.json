@@ -8,12 +8,6 @@
           "style": "diamond",
           "template": "{{ round .PhysicalPercentUsed .Precision }}% ",
           "type": "sysinfo"
-        },
-        {
-          "foreground": "#ff8800",
-          "style": "diamond",
-          "template": "{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1073741824.0) }}/{{ (div .PhysicalTotalMemory 1073741824.0) }}GB ",
-          "type": "sysinfo"
         }
       ],
       "type": "rprompt"
@@ -23,24 +17,9 @@
       "segments": [
         {
           "foreground": "#ff8800",
-          "properties": {
-            "macos": "mac"
-          },
-          "style": "plain",
-          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
-          "type": "os"
-        },
-        {
-          "foreground": "#ff8800",
           "style": "plain",
           "template": "$",
           "type": "text"
-        },
-        {
-          "foreground": "#ff8800",
-          "style": "plain",
-          "template": "{{ .UserName }}:",
-          "type": "session"
         },
         {
           "foreground": "#62c0ff",

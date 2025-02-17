@@ -61,4 +61,4 @@ fi
 
 . "$HOME/.cargo/env"
 
-eval "$(oh-my-posh init zsh --config ~dot/oh-my-posh.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/Documents/dotfiles/oh-my-posh.omp.json)"

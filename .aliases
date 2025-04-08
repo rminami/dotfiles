@@ -42,7 +42,8 @@ alias cl='clear'
 alias cgb='cargo build'
 alias cgc='cargo check'
 alias cgr='cargo run'
-alias cgcl='cargo clippy'
+alias cgl='cargo clippy'
+alias cgn='cargo clean'
 
 # Recursive option for dos2unix
 alias dos2unixr='find . -type f -print0 | xargs -0 dos2unix'
@@ -53,6 +54,14 @@ alias xcode='open -a /Applications/XCode.app'
 alias f='open -a Finder '
 alias fh='open -a Finder .'
 
+# Git
+alias gbdd='git-branch-delete'
+
+# Editors
+alias code='open $1 -a "Visual Studio Code"'
+alias cursor='open $1 -a "Cursor"'
+
 alias apps='open -a Finder /Applications'
 alias chrome-insecure='open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security'
+
 

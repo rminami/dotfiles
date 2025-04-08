@@ -14,7 +14,7 @@
           "foreground": "#62c0ff",
           "properties": {
             "folder_separator_icon": "/",
-            "style": "full"
+            "style": "powerlevel"
           },
           "style": "plain",
           "type": "path"
